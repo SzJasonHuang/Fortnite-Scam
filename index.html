@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Urgent: Respond Required</title>
+  <title>Urgent: Account Locked!</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="phish-box">
-    <h1> &#127881; Free VBucks Giveaway</h1>
-    <p>Congratulations! You have been selected for the free VBucks Giveaway!</p>
-    <p>Please enter your Epic Account to unlock your awards.</p>
-    <form onsubmit="return showWarning(event)">
+    <h1>&#127881; Free V-Bucks Giveaway &#127881;</h1>
+    <p>Congratulations! You have been selected for the free V-Buck giveaway</p>
+    <p>Please enter your Epic account to unlock your awards: </p>
+    <form onsubmit="return showLoading(event)">
       <label>Email:</label><br />
       <input type="email" required /><br /><br />
       <label>Password:</label><br />
@@ -19,15 +19,19 @@
     </form>
   </div>
 
+  <div class="loading" id="loading">
+    <h2>Loading V-Bucks ...</h2>
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+  </div>
+
   <div class="warning" id="warning">
-    <h2>This is a Phishing Simulation!</h2>
+    <h2>100,000 V-Bucks Loaded!</h2>
     <ul>
-      <li>⚠️ The URL is suspicious: it's not your real bank!</li>
-      <li>⏰ Urgency tactics: “Account Locked!”</li>
-      <li>🧾 Asking for sensitive info on an unsecured form</li>
-      <li>🕳️ Generic branding—no company name or logo</li>
+      <li>Please allow 2-3 days for your V-Bucks to appear on your account</li>
     </ul>
-    <p>Always double-check the URL, and never enter sensitive info unless you're sure it's secure.</p>
+    <p>Follow @kneehow123 on Instagram for more V-Bucks giveaway!</p>
   </div>
 
   <script src="script.js"></script>
