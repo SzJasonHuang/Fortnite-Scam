@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://cdn1.epicgames.com/offer/fn/FNECO_KeyArt_25_EGS_Launcher_KeyArt_Blade_2560x1440_2560x1440-8d4d2a17f716d09b73db1782346618ce');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+    
+  }
+  
+  .phish-box {
+    background: #fff;
+    padding: 30px;
+    border: 2px solid blue;
+    max-width: 410px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px blue;
+  }
+  
+  input {
+    width: 80%;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .warning {
+    display: none;
+    background: #e8f5e9;
+    color: #2e7d32;
+    margin-top: 40px;
+    padding: 30px;
+    border: 2px solid #2e7d32;
+    max-width: 500px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px #2e7d32;
+  }
+  

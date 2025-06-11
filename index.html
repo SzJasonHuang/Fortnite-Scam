@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Urgent: Respond Required</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="phish-box">
+    <h1>⚠️ Free VBucks Giveaway</h1>
+    <p>Congratulations! You have been selected for the free VBucks Giveaway!</p>
+    <p>Please enter your Epic Account to unlock your awards.</p>
+    <form onsubmit="return showWarning(event)">
+      <label>Email:</label><br />
+      <input type="email" required /><br /><br />
+      <label>Password:</label><br />
+      <input type="password" required /><br /><br />
+      <button type="submit">Unlock Now</button>
+    </form>
+  </div>
+
+  <div class="warning" id="warning">
+    <h2>This is a Phishing Simulation!</h2>
+    <ul>
+      <li>⚠️ The URL is suspicious: it's not your real bank!</li>
+      <li>⏰ Urgency tactics: “Account Locked!”</li>
+      <li>🧾 Asking for sensitive info on an unsecured form</li>
+      <li>🕳️ Generic branding—no company name or logo</li>
+    </ul>
+    <p>Always double-check the URL, and never enter sensitive info unless you're sure it's secure.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
